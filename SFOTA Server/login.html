@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" method="POST" action="login.php">
+            <h1 class="form__title">Login</h1>
+            <div class="form__group">
+                <label for="username" class="form__label">Username</label>
+                <input type="text" id="username" name="username" class="form__input" required>
+            </div>
+            <div class="form__group">
+                <label for="password" class="form__label">Password</label>
+                <input type="password" id="password" name="password" class="form__input" required>
+            </div>
+            <button type="submit" class="form__button">Login</button>
+        </form>
+    </div>
+</body>
+</html>

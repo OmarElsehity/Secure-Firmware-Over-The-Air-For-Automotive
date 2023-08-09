@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"ana_hasta2bl\startup_stm32f103xb.o"
+"ana_hasta2bl\main.o"
+"ana_hasta2bl\stm32f1xx_it.o"
+"ana_hasta2bl\stm32f1xx_hal_msp.o"
+"ana_hasta2bl\stm32f1xx_hal_gpio_ex.o"
+"ana_hasta2bl\stm32f1xx_hal_can.o"
+"ana_hasta2bl\stm32f1xx_hal.o"
+"ana_hasta2bl\stm32f1xx_hal_rcc.o"
+"ana_hasta2bl\stm32f1xx_hal_rcc_ex.o"
+"ana_hasta2bl\stm32f1xx_hal_gpio.o"
+"ana_hasta2bl\stm32f1xx_hal_dma.o"
+"ana_hasta2bl\stm32f1xx_hal_cortex.o"
+"ana_hasta2bl\stm32f1xx_hal_pwr.o"
+"ana_hasta2bl\stm32f1xx_hal_flash.o"
+"ana_hasta2bl\stm32f1xx_hal_flash_ex.o"
+"ana_hasta2bl\stm32f1xx_hal_exti.o"
+"ana_hasta2bl\stm32f1xx_hal_tim.o"
+"ana_hasta2bl\stm32f1xx_hal_tim_ex.o"
+"ana_hasta2bl\system_stm32f1xx.o"
+--strict --scatter ".\Ana_hasta2bl\Ana_hasta2bl.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Ana_hasta2bl.map" -o Ana_hasta2bl\Ana_hasta2bl.axf
