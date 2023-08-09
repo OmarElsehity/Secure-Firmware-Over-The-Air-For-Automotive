@@ -1,4 +1,4 @@
-![SFOTA_Sequence](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/d058c625-1c47-4687-b33d-528926621a4b)# Secure-Firmware-Over-The-Air
+# Secure-Firmware-Over-The-Air
 Developing a system that updates the vehicle’s firmware through Wi-Fi, using Raspberry Pi 4 to connect with the server, and download and decrypt the firmware files. The system is designed to use two STM32F103 each connected to the CAN bus. The Pi sends the update package to the target ECU over MCP2515 then a custom Bootloader flashes the firmware into the memory. All the process is monitored through a custom-built infotainment system presented on a 7-inch touch LCD to manage user interactions.
 
                                                    Infotainment System:
