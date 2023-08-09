@@ -1,19 +1,20 @@
-# Secure-Firmware-Over-The-Air
+![SFOTA_Sequence](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/d058c625-1c47-4687-b33d-528926621a4b)# Secure-Firmware-Over-The-Air
 Developing a system that updates the vehicle’s firmware through Wi-Fi, using Raspberry Pi 4 to connect with the server, and download and decrypt the firmware files. The system is designed to use two STM32F103 each connected to the CAN bus. The Pi sends the update package to the target ECU over MCP2515 then a custom Bootloader flashes the firmware into the memory. All the process is monitored through a custom-built infotainment system presented on a 7-inch touch LCD to manage user interactions.
 
                                                    Infotainment System:
+                                                   
+![GUI_Dark](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/04321e98-5e83-40d1-ae43-871a3d372d2b)
 
-![GUI_Dark](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/98567d3e-7f96-4610-b32f-3358e1e81eda)
 
                                                      SFOTA Overview 
 
-                                                                
-![SFOTA Poster](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/df5019dd-c95b-4937-881b-f76909021f1d)
-
+![SFOTA Poster](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/9b20712d-a8c3-4d37-a342-18afe1f2d786)
+    
 
 -> System Block Diagram:
 
-![Blank diagram](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/fc50b3ff-3bd9-4d54-916e-0fa228e39eab)
+![Blank diagram](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/d9d8b0aa-5a0d-4105-8775-40571a3df725)
+
 
 -> Project Design:
 This section includes the main features of the project
@@ -21,27 +22,28 @@ This section includes the main features of the project
 2. Request update package
 3. Download the update package
 4. Installation
-   
-![Screenshot (72)](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/797d3ba1-b843-4fe6-a296-5508cafcffed)
 
+![Screenshot (72)](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/49a31ebe-f44e-4fee-a66e-3bcd8c2d0056)
+ 
 
 -> System Flowchart:
 
-![Grad Flow Chart](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/71b1a87d-6910-4122-86e1-fef2e2185ad7)
+![Grad Flow Chart](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/f4012d5c-93ea-4e95-84f4-228c27ec2d83)
 
 
 -> System Sequence Diagram:
 
-![SFOTA_Sequence](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/584823f3-0ed3-4e22-af5b-d83695997183)
+![SFOTA_Sequence](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/ae3e8564-04ea-40c6-9af0-f11a2afdeec4)
 
 
 -> Schematic Diagrams:
 
-![Schematic_SFOTA](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/b641026d-3e15-4886-bcfc-d5c7c1f5509f)
+![Schematic_SFOTA](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/06b221cb-8824-4789-832b-d6383c55796b)
 
 -> Simplified Schematic Diagram:
 
-![Schematic Diagram](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/c9079ce9-b062-4f36-9c16-4909bf7140d7)
+![Schematic Diagram](https://github.com/OmarElsehity/Secure-Firmware-Over-The-Air/assets/79268813/1d1297fa-0a09-492e-85df-eab430b91b8f)
+
 
 (Demo Video) 
 https://drive.google.com/file/d/1c6D5XZydFfNlUuPHIVN9cETH1KwaFffO/view?usp=drive_link
